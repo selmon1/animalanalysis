@@ -1,0 +1,64 @@
+{% extends 'layout.html' %}
+{% block body %}
+<form action="analyze" method="POST" enctype="multipart/form-data">
+	<br>File must be < 1 MB in size.<br>
+	<div class="form-group">
+		<div class="input-group mb-3">
+  			<div class="custom-file">
+    			<input type="file" class="custom-file-input" name="file" id="inputGroupFile01">
+    			<label id="filename" class="custom-file-label" for="inputGroupFile01">Select an image of an animal...</label>
+  			</div>
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<label for="description">Description</label>
+		<textarea class="form-control" name="description" id="description" placeholder="How do you feel about this animal?"></textarea>
+	</div>
+	
+	<div class="form-group">
+		<input type="submit" class="btn btn-primary btn-lg" name="submit" value="Submit">
+	</div>
+</form>
+		
+			{% if image_data != null %}
+				{% if image_data.image != None and image_data.label != None %}
+					<img height="250" src="{{image_data.image}}" alt="{{image_data.label}}"/><br/>
+				{% endif %}
+				{% if image_data.feelings != None and image_data.label != None %}
+					<p>You seem to {{image_data.feelings}} {{image_data.label}}s (Spanish: {{image_data.translatedText}}).</p>
+				{% elif image_data.label != None %}
+					<p>Please enter a description of how you feel about {{image_data.label}}s.</p>
+				{% else %}
+					<p>Please upload an image of an animal, and give me a description of how you feel about it.</p>
+				{% endif %}
+				
+				{% if image_data.detail != None %}
+					<p>Since you like {{image_data.label}}s, here's some more information about them:</p>
+					<p>{{image_data.detail}}</p>
+				{% endif %}
+			{% endif %}
+
+<script >
+$(function() {
+
+  // We can attach the `fileselect` event to all file inputs on the page
+  $(document).on('change', ':file', function() {
+    var input = $(this),
+        numFiles = input.get(0).files ? input.get(0).files.length : 1,
+        label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
+    input.trigger('fileselect', [numFiles, label]);
+  });
+
+  // We can watch for our custom `fileselect` event like this
+  $(document).ready( function() {
+      $(':file').on('fileselect', function(event, numFiles, label) {
+              document.getElementById("filename").innerHTML = label;
+
+      });
+  });
+  
+});
+</script>
+
+{% endblock %}

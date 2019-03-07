@@ -7,7 +7,7 @@ If the visitor likes what's in the image, then more information will be obtained
 
 Info retrieved based on image and sentiment analysis. 
 
-Python, Flask, Google Cloud Platform (AppEngine for deployment, Cloud ML APIs)
+Created using: Python, Flask, Google Cloud Platform (AppEngine for deployment, Cloud ML APIs)
 
 Note: 
 After creating virtualenv, use pip to install the libraries, modules indicated in `requirements.txt`

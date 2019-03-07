@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cs410c-selmon",
+  "private_key_id": "c888b58a3f9ce2622d72eb4e0ab92eff56627bd8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8XWWRWo5Vc+MR\n/9BD5r/wK0R4QirlAwkI+pM/fN8pqAB6qlUUK0POhANSSuf+CUPv31LnB8FdLsjh\nkYDIvtBo2xaHpRWixGNxQ4ktoghHKz7RTzpXsWbzjY55GjihAsZO7FRLXok63urh\naZBrJWbx+TXOgbibsoydm1oQgGit9x7BLMzoX2XoyeoAmbI/oXziVqD0JcN3Yq3J\n8dBI8IzIyZXIOcGvYQr1ZXG14uTDB4ug4WOISaHNDWKFq75gLdwB3lBioSpEIeKg\n7N4QRVeKRCDGjWxmLS2U9M6iXbd5+Jf9k9SdutVb0PURT8oJL0TZmjUSF3OUl6ck\nAH2/q9UbAgMBAAECggEAA9kZRD+9gk5kmE9fDFFloLzpiwFjCfGmw28HB2LVgO7Z\n2lJU0Z1+pvSNyCZtQy8iRaoMx1kiYJ/I4nQhVY3cXmqstPxbivXdyDMRKtmmt07R\nW4pK+VP6SUXI4CgiebDqUd4ZwhO+KZyN336owMpEpkh+imeeWK6W7nioKDJ6Bk+/\nRrNyyhv9zkW1mOfCzEF129P8jgcVco4T1LcZ50UsqMDHBRZ3tiZeXJ8dRKo548FD\nwwrGAPWVaYqwJIYXeIdyTCzheXJqTNoewlrSjDli+UWDQPDJPnXiQ7iqd9FC+9Op\nHtZIvgQHdDJsI47HgIdDKnZ2IFUsGcUwLhcYP6pu+QKBgQDckhHe8WXERZ0rjFSF\nqehj/geKrQG30fdFnuJ8x2t3vtI36W2C2txRJy4nhOguB/giv5IjaXfPz7WO1nOk\nYLToMhMLSz+ttdANebcd42EczprbJU3LR2B+aoDN4te8VhlC3swsjKVGXd8/lLFd\n2A7Y2DAYBWU8C0lnWjr3HUKwaQKBgQDanwQ1h8u5naicLG8K3WC8WqqaoA81Tb6S\n4TvCl6dSjyAK4OdO7uPqNzo1/zvPj1bCmFsQn6W9H6V0jFeOjMscW2hquqoZfUDb\nd8o2hrWp3DvEUPbObA5q+pmSU6sM373hcBhEzXiUdkWF0LQlQecVyjnIoyd5WxrS\nph8z8xEo4wKBgFwOOpcpeKepxibesof2mZ7h7pPaENV/NAxCe5RIRnn7khDzw1jR\nrxHPoFuuBJjxioY2He/ZnL+GmOe8aRc5pUcjXv9fsHv3XZXCLsKym11CfS7pKsak\nS4l3Obqz6gYYiQJ3qg8NxAzSMNKAZGYePlQSJkBgQBgHPeN8rQ9ljufBAoGAQGRL\n0hSAPdig+/becf3Ia1HtJAP21sViV1K9zk/quZdsYafimU4llSvVGmhlznmynThQ\nwjGzmGPE0PIxK8xuWpjVxXHbfgx1WO8MgUjmIvS6KdWLDDupd3r+VqoMHIueGtNw\nYnt+g4PecE6LcNnbXYClymG707Owz9CcKinyqO8CgYEA0kSx+LC3PdujW5oVrLW4\nVIuQnjTDpxJccBKqEaJqjV2s9Z8UjszTPhe7GFnmazGJW5pDwifTAdfjFNAOWV73\n2NCQ/eZXTHIvPd4P2brUe7pSWvqoLVLs+Y/3/fC6hIxANNIcQDeFACRJ3HiG6IBA\nCw6WfmWZd545HfF4DGwK33k=\n-----END PRIVATE KEY-----\n",
+  "client_email": "animalapis@cs410c-selmon.iam.gserviceaccount.com",
+  "client_id": "104847238665245941964",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/animalapis%40cs410c-selmon.iam.gserviceaccount.com"
+}
